@@ -7,9 +7,11 @@ export default function ModalLogin(){
             {/* Fundo semitransparente para escurecer o resto da tela */}
             <View className="flex-1 flex-col justify-end items-center bg-[#C02636]">
                 {/* Conteúdo do modal — metade da altura da tela */}
-                <View className="w-full h-1/2 bg-white rounded-2xl p-4">
-                <Text className="text-lg font-semibold mb-4">Modal</Text>
-                </View>
+                <View className="w-full h-1/2 bg-white rounded-t-3xl p-4 items-center">
+                    <View className='w-[85%] pt-8 pb-8'>
+                        <Text className="text-[16px] font-boldtext-[#17222B] font-[800] mb-4">Entre para acessar suas receitas</Text>
+                    </View>
+                </View> 
             </View>
         </Modal>
     )
