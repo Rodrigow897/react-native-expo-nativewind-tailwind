@@ -4,10 +4,11 @@
     "slug": "react-native-expo-nativewind-tailwind",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logoIcon.png",
     "scheme": "reactnativeexponativewindtailwind",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "backgroundColor": "#C02636",
     "ios": {
       "supportsTablet": true
     },
